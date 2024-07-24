@@ -25,9 +25,9 @@ function calculate() {
 }
 
 function bmicalculate() {
-
-    uweight =parseInt(weight.value)
-    uheight =parseInt(height.value)
+// weight bmi
+    uweight = parseInt(weight.value)
+    uheight = parseInt(height.value)
 
     const bmi = (uweight / ((uheight * uheight) / 10000)).toFixed(2);
 
